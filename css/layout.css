@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.aphe{
+    float: left;
+    width: 100%;
+}
+.mb{
+    margin-bottom: 60px;
+    height: 80px;
+}
+.demo{
+    background-color: black;
+    min-height: 100px;
+    width: 1800px;
+}
+img{
+    display: block;
+    
+}
+.boxcenter{
+    float: left;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.boxcenter>img{
+    margin-top: 5px;
+    text-align: center;
+}
+header{
+    background: url('../img/blurred1.jpg') 100%;
+    height: 522px;
+    float: left;
+    
+}
+
+footer{
+   background-color: #101215;
+   min-height: 400px; 
+}   
+main{
+    background-color: rgba(238, 238, 238, 0.589);
+    min-height: 400px;
+}
+.boxleft{
+    float: left;
+    width: 100%;
+}
+.boxright{
+    float: left;
+    width: 100%;
+}
+.bgcolo{
+    background-color:lavender ;
+    min-height: auto;
+    
+}
+.menu{
+    background-color: rgb(5, 4, 4);
+    color: #ecaf14;
+    display: flex;
+    padding: 10px 5%;
+    font-weight: bold;
+    height: 70px;
+    
+}
+
+.banner{
+    min-height: 500px;
+    text-align: center;
+}
+.banner img{
+    text-align: center;
+}
+
+.thien{
+    width: 80%;
+    height: 30px;
+    margin-top: 50px;
+    margin-left: 135px;
+    text-align: center; 
+    background-position: center 0;
+    color: #fff;
+}
+
+.dat{
+    width: 80%;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: 135px;
+    background-color: rgb(255, 0, 85);
+    text-align: center;
+    background: url('../img/logos-vn.png') no-repeat;
+    background-position: center 0; 
+}
+.cu{
+    width: 80%;
+    height: 60px;
+    margin-top: 50px;
+    margin-left: 135px;
+    text-align: center; 
+    color: #fff;
+    line-height: 1.4;
+    padding: 0 5px;
+}
+.ma{
+    width: 80%;
+    height: 70px;
+    margin-top: 20px;
+    margin-left: 135px; 
+    text-align: center; 
+    justify-content: space-between;
+    padding: 10px 5%;
+
+}
+.box1left > img{
+    float: left;
+    width: 13%;
+   margin-left: 300px;
+} 
+.box1right > img{
+    float: right;
+    width: 20%;
+    margin-right:300px ;
+}
+.hmenu{
+    list-style: none;
+}
+.hmenu>li{
+    display: inline-block;
+    margin: 20px;
+    padding: 0px 25px;
+    position: relative ;
+}
+.hmenu>li>a{
+    text-decoration: none;
+    justify-content: center;
+}
+.hmenu>li:hover .smenu{
+    display: block;
+}
+.smenu{
+    list-style: none;
+    position: absolute;
+    top: 20px;
+    left: -20px;
+    width: 1147px;  
+    background-color: #310335;
+    padding: 20px;
+    display: none;
+    
+}
+
+.smenu>li{
+    display: block;
+    height: 30px;  
+}
+
+.smenu>li>a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+}
+.smenu>li:hover{
+    border-bottom: 1px solid blue;
+}
+
+.col33{
+    width: calc(calc(100% - 60px) / 3);
+    float: left;
+    height: 250px;
+    margin: 10px;
+  
+    margin-bottom: 70px;
+    margin-top: 3%;
+    height: 500px;
+    padding: 20px;
+}
+.img{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+.col33 img{ 
+    width: 100%;
+    height: auto;
+}
+
+.col33 link{
+    width: 100%;
+    height: 300px;
+}
+.category{
+    width: 80%;
+    height: 40px;
+    margin-top: -30px;
+    margin-left: 10px;
+    color: #0ac6e4;
+    font-weight: 600;
+} 
+.title{
+    width: 80%;
+    height: 40px;
+    margin-top: -10px;
+    margin-left: 10px;
+    font-weight: 900;
+    color: black;
+}
+.content{
+    width: 80%;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.voga{
+    width: 80%;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.aabb{
+    width: 15%;
+    height: 50px;
+    margin-left: 550px;
+    margin-bottom: 50pt;
+    
+}
+
