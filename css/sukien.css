@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.aphe{
+    float: left;
+    width: 100%;
+}
+header{
+    background: url('../img/blurred1.jpg') 100%;
+    height: 320px;
+    float: left;
+    
+}
+.hmenu{
+    list-style: none;
+}
+.hmenu>li{
+    display: inline-block;
+    margin: 20px;
+    padding: 0px 25px;
+    position: relative ;
+}
+.hmenu>li>a{
+    text-decoration: none;
+    justify-content: center;
+}
+.hmenu>li:hover .smenu{
+    display: block;
+}
+.smenu{
+    list-style: none;
+    position: absolute;
+    top: 20px;
+    left: -20px;
+    width: 1147px;  
+    background-color: #310335;
+    padding: 20px;
+    display: none;
+    
+}
+
+.smenu>li{
+    display: block;
+    height: 30px;  
+}
+
+.smenu>li>a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+}
+.smenu>li:hover{
+    border-bottom: 1px solid blue;
+}
+.banner{
+    min-height: 500px;
+    text-align: center;
+}
+.banner img{
+    text-align: center;
+}
+.boxcenter{
+    float: left;
+    margin-top: 20px;
+    margin-left: 70px;  
+    
+}
+.boxcenter>img{
+    margin-top: 50px;
+    text-align: center;
+    
+}
+.menu{
+    background-color: rgb(5, 4, 4);
+    color: #ecaf14;
+    display: flex;
+    padding: 10px 5%;
+    font-weight: bold;
+    height: 70px;
+    
+}
+main{
+    min-height: 2300px;
+}
+.dat{
+    width: 80%;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: 135px;
+    background-color: rgb(255, 0, 85);
+    text-align: center;
+    background: url('../img/logos-vn.png') no-repeat;
+    background-position: center 0; 
+}
+.cu{
+    width: 80%;
+    height: 60px;
+    margin-top: 50px;
+    margin-left: 135px;
+    text-align: center; 
+    color: #fff;
+    line-height: 1.4;
+    padding: 0 5px;
+}
+.ma{
+    width: 80%;
+    height: 70px;
+    margin-top: 20px;
+    margin-left: 135px; 
+    text-align: center; 
+    justify-content: space-between;
+    padding: 10px 5%;
+
+}
+.box1left > img{
+    float: left;
+    width: 13%;
+   margin-left: 300px;
+} 
+.box1right > img{
+    float: right;
+    width: 20%;
+    margin-right:300px ;
+}
+.thien{
+    width: 80%;
+    height: 30px;
+    margin-top: 50px;
+    margin-left: 135px;
+    text-align: center; 
+    background-position: center 0;
+    color: #fff;
+}
+footer{
+    background-color: #101215;
+    min-height: 400px; 
+}   
+.tt{
+    margin-top: 300px;
+    font-family:  Roboto,Arial,Helvetica,"Droid Sans",sans-serif;
+}
+.ai>h2{
+    margin-left: 140px;
+    margin-top: 40px;
+    font-family:  Roboto,Arial,Helvetica,"Droid Sans",sans-serif;
+}
+.ai>p{
+    margin-left: 140px;
+    margin-top: 10px;
+    font-family:  Roboto,Arial,Helvetica,"Droid Sans",sans-serif;
+}
+strong{
+    color: rgb(189, 123, 99);
+}
+p>strong{
+    color: red;
+}
+.qq>h2{
+    margin-left: 140px;
+    margin-top: 10px;
+    font-family:  Roboto,Arial,Helvetica,"Droid Sans",sans-serif;
+}
+.qq>p{
+    margin-left: 180px;
+    margin-top: 10px;
+    font-family:  Roboto,Arial,Helvetica,"Droid Sans",sans-serif;
+    font-size: 1.05rem; 
+    color: #1e282d;
+}
+.qq>img{
+    height: 500px;
+    margin-left: 250px;
+    margin-top: 30px;
+ 
+}
+.bt{
+   height: 70px;
+   margin-left: 30%;
+   margin-top: 50px;
+}
+.tb{
+    height: 70px;
+    margin-left: 3%;
+    margin-top: 50px;
+}
+

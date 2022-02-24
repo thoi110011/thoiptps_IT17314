@@ -202,7 +202,12 @@ main{
     margin-left: 10px;
     color: #0ac6e4;
     font-weight: 600;
+    
 } 
+div a{
+    text-decoration: none;
+    color: black;
+}
 .title{
     width: 80%;
     height: 40px;
@@ -210,6 +215,7 @@ main{
     margin-left: 10px;
     font-weight: 900;
     color: black;
+    
 }
 .content{
     width: 80%;

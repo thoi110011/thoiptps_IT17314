@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.aphe{
+    float: left;
+    width: 100%;
+}
+header{
+    background: url('../img/blurred1.jpg') 100%;
+    height: 320px;
+    float: left;
+    
+}
+.hmenu{
+    list-style: none;
+}
+.hmenu>li{
+    display: inline-block;
+    margin: 20px;
+    padding: 0px 25px;
+    position: relative ;
+}
+.hmenu>li>a{
+    text-decoration: none;
+    justify-content: center;
+}
+.hmenu>li:hover .smenu{
+    display: block;
+}
+.smenu{
+    list-style: none;
+    position: absolute;
+    top: 20px;
+    left: -20px;
+    width: 1147px;  
+    background-color: #310335;
+    padding: 20px;
+    display: none;
+    
+}
+
+.smenu>li{
+    display: block;
+    height: 30px;  
+}
+
+.smenu>li>a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+}
+.smenu>li:hover{
+    border-bottom: 1px solid blue;  
+}
+.banner{
+    min-height: 500px;
+    text-align: center;
+}
+.banner img{
+    text-align: center;
+}
+.boxcenter{
+    float: left;
+    margin-top: 20px;
+    margin-left: 70px;  
+    
+}
+.boxcenter>img{
+    margin-top: 50px;
+    text-align: center;
+    
+}
+.menu{
+    background-color: rgb(5, 4, 4);
+    color: #ecaf14;
+    display: flex;
+    padding: 10px 5%;
+    font-weight: bold;
+    height: 70px;
+    
+}
+main{
+    min-height: 10300px;
+}
+.dat{
+    width: 80%;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: 135px;
+    background-color: rgb(255, 0, 85);
+    text-align: center;
+    background: url('../img/logos-vn.png') no-repeat;
+    background-position: center 0; 
+}
+.cu{
+    width: 80%;
+    height: 60px;
+    margin-top: 50px;
+    margin-left: 135px;
+    text-align: center; 
+    color: #fff;
+    line-height: 1.4;
+    padding: 0 5px;
+}
+.ma{
+    width: 80%;
+    height: 70px;
+    margin-top: 20px;
+    margin-left: 135px; 
+    text-align: center; 
+    justify-content: space-between;
+    padding: 10px 5%;
+
+}
+.box1left > img{
+    float: left;
+    width: 13%;
+   margin-left: 300px;
+} 
+.box1right > img{
+    float: right;
+    width: 20%;
+    margin-right:300px ;
+}
+.thien{
+    width: 80%;
+    height: 30px;
+    margin-top: 50px;
+    margin-left: 135px;
+    text-align: center; 
+    background-position: center 0;
+    color: #fff;
+}
+footer{
+    background-color: #101215;
+    min-height: 400px; 
+}   
+.vv{
+    margin-top: 300px;
+}
+.ai>p{
+    margin-left: 150px;
+    height: 30px;
+    font-size: 1.05rem; 
+    font-family:  Roboto,Arial,Helvetica,"Droid Sans",sans-serif;
+    margin-top: 30px;
+    color: #1e282d;
+}
+.ai>h2{
+    margin-left: 150px;
+    margin-top: 30px;
+    font-family:  Roboto,Arial,Helvetica,"Droid Sans",sans-serif;
+}
+strong{
+    color: rgb(189, 123, 99);
+}
+.rt>p{
+    margin-left: 150px;
+    height: 30px;
+    font-size: 1.02rem; 
+    font-family:  Roboto,Arial,Helvetica,"Droid Sans",sans-serif;
+    text-align: left;
+    color: #1e282d;
+}
+.rt>img{
+    height: 250px;
+    margin-top: 20px;
+}
+.rt>iframe{
+    margin-top: 10px;
+}
+.rt>h2{
+    text-align: left;
+    margin-left: 150px;
+    margin-top: 27px;
+}
+.ff>p{
+    margin-left: 150px;
+    height: 40px;
+    font-size: 1.0rem; 
+    font-family:  Roboto,Arial,Helvetica,"Droid Sans",sans-serif;
+    color: #1e282d;
+    text-align: left;
+}
+
+.ff>img{
+    height: 350px;
+}
+.pz>p{
+    margin-left: 150px;
+    height: 40px;
+    font-size: 1.0rem; 
+    font-family:  Roboto,Arial,Helvetica,"Droid Sans",sans-serif;
+    color: #1e282d;
+    text-align: left;
+   
+}
+.pz>img{
+    height: 350px;
+}
+.yt>h2{
+    margin-left: 150px;
+    height: 50px;
+    font-family:  Roboto,Arial,Helvetica,"Droid Sans",sans-serif;
+    color: #1e282d;
+    text-align: left;
+    margin-top: 30px;
+}
+.yt>p{
+    margin-left: 150px;
+    height: 20px;
+    font-size: 1.0rem; 
+    font-family:  Roboto,Arial,Helvetica,"Droid Sans",sans-serif;
+    color: #1e282d;
+    text-align: left;
+    margin-bottom: 10px;
+    line-height: 1.5rem
+}
+
+.yt>img{
+    height: 350px;
+    margin-top: 1px;
+}
+.i{
+    height: 350px;
+    width: 700px;
+    margin-top: 50px;
+}
+.ari>img{
+    height: 300px;
+    margin-top: 40px;
+}
+.ari>p{
+    margin-left: 150px;
+    height: 20px;
+    font-size: 1.0rem; 
+    font-family:  Roboto,Arial,Helvetica,"Droid Sans",sans-serif;
+    color: #1e282d;
+    text-align: left;
+    margin-bottom: 10px;    
+    line-height: 1.5rem
+}
+.ys>img{
+    height: 190px;
+    margin-top: 30px;
+}
+.ys>p{
+    margin-left: 150px;
+    height: 20px;
+    font-size: 1.0rem; 
+    font-family:  Roboto,Arial,Helvetica,"Droid Sans",sans-serif;
+    color: #1e282d;
+    text-align: left;
+    margin-bottom: 10px;    
+    line-height: 1.5rem
+}
+.ys>iframe{
+    margin-top: 50px;
+}
+.cami>h2{
+    text-align: left;
+    margin-left: 150px;
+    margin-top: 27px;
+    font-size: 28px;
+}
+.cami>p{
+    margin-left: 150px;
+    height: 20px;
+    font-size: 1.0rem; 
+    font-family:  Roboto,Arial,Helvetica,"Droid Sans",sans-serif;
+    color: #1e282d;
+    text-align: left;
+    margin-bottom: 10px;    
+    line-height: 1.5rem
+}
+.cami>iframe{
+    margin-top: 50px;
+}
+.cami>img{
+    margin-top: 17px;
+    height: 300px;
+}
+.cami>hr{
+    width: 1000px;
+    margin-left: -50px;
+}
+.xaya>p{
+    margin-left: 150px;
+    height: 20px;
+    font-size: 1.0rem; 
+    font-family:  Roboto,Arial,Helvetica,"Droid Sans",sans-serif;
+    color: #1e282d;
+    text-align: left;
+    margin-top: 40px;    
+    line-height: 1.5rem
+}
+.np>img{
+    height: 400px;
+    margin-top: 20px;
+}
+
